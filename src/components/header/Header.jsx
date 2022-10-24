@@ -1,10 +1,19 @@
 import React, { useState } from "react";
 import "./header.css";
+import ReactDOM from "react-dom";
 
 const Header = () => {
   /* Toggle Menu */
   const [Toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
+
+  function Mailto({ email, subject, body, ...props }) {
+    return (
+      <a href={`mailto:${email}?subject=${subject || ""}&body=${body || ""}`}>
+        {props.children}
+      </a>
+    );
+  }
 
   return (
     <header className="header">
@@ -69,12 +78,12 @@ const Header = () => {
                 Projects
               </a>
             </li>
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <a href="#contact" className="nav__link">
                 <i className="uil uil-message nav__icon"></i>
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
           <i
             className="uil uil-times nav__close"

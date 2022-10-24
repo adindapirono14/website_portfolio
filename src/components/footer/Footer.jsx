@@ -34,7 +34,11 @@ const Footer = () => {
           >
             <i className="ul uil-linkedin"></i>
           </a>
-          <a href="#" className="footer__social-link" target="_blank">
+          <a
+            href="mailto:adindaykpirono@gmail.com"
+            className="footer__social-link"
+            target="_blank"
+          >
             <i className="ul uil-envelope-edit"></i>
           </a>
         </div>
