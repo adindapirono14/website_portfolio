@@ -10,7 +10,11 @@ const Data = () => {
         I am an inspiring software-engineer who just graduated this September
       </p>
 
-      <a download="" href="#cv" className="button button--flex">
+      <a
+        download="AdindaPirono_CV.pdf"
+        href="AdindaPirono_CV.pdf"
+        className="button button--flex"
+      >
         Download CV
       </a>
     </div>
