@@ -34,28 +34,45 @@ function Project() {
                 onClick={() => toggleTab(0)}
                 className="uil uil-times projects__modal-close"
               ></i>
-              <h3 className="projects__modal-title">Product Designer</h3>
-              <p className="projects__modal-description">
-                deskripsi dri projeknya
-              </p>
+              <h3 className="projects__modal-title">
+                Who is the hateful twitter user?
+              </h3>
+              {/* <p className="projects__modal-description">Frontend Developer</p> */}
               <ul className="projects__modal-projects grid">
                 <li className="projects__modal-project">
-                  <i className="uil uil-check-circle projects__modal-icon"></i>
-                  <p className="projects__modal-info"> developing the UI</p>
+                  {/* <i className="uil uil-check-circle projects__modal-icon"></i> */}
+                  <p className="projects__modal-info">
+                    A machine-learning model that is developed into a web app
+                    that detects hate- speech and fake news that are largely
+                    spreading in Twitter. The system is able to detect who the
+                    hateful user is in Twitter. Out of 100 tweets, the system is
+                    able to detect 90 tweets accurately. The model will
+                    automatically re-train and improve with an updated dataset.
+                  </p>
                 </li>
                 <li className="projects__modal-project">
-                  <i className="uil uil-check-circle projects__modal-icon"></i>
-                  <p className="projects__modal-info"> helped on the backend</p>
+                  {/* <i className="uil uil-check-circle projects__modal-icon"></i> */}
+                  <p className="projects__modal-info">
+                    This web is created with the aid of Python – Django both for
+                    the Backend and integration with the Frontend. Libraries
+                    used are sklearn, numpy, nltk and pandas to assist the
+                    machine learning model. As for Frontend, Django, javascript
+                    and Bootstrap are used.
+                  </p>
                 </li>
+                {/* <li className="projects__modal-project">
+                  <i className="uil uil-check-circle projects__modal-icon"></i>
+                  <p className="projects__modal-info"> </p>
+                </li> */}
               </ul>
             </div>
           </div>
         </div>
         <div className="projects__content">
           <div>
-            <i class="bx bxl-twitter"></i>
+            <i class="bx bx-desktop"></i>
             <h3 className="projects__title">
-              314 <br /> Project
+              Personal <br /> Project
             </h3>
           </div>
           <span className="projects__button" onClick={() => toggleTab(2)}>
@@ -74,18 +91,22 @@ function Project() {
                 onClick={() => toggleTab(0)}
                 className="uil uil-times projects__modal-close"
               ></i>
-              <h3 className="projects__modal-title">Product Leader</h3>
-              <p className="projects__modal-description">
-                deskripsi dri projeknya
-              </p>
+              <h3 className="projects__modal-title">
+                Video Conference (In Progress)
+              </h3>
+              {/* <p className="projects__modal-description"></p> */}
               <ul className="projects__modal-projects grid">
                 <li className="projects__modal-project">
-                  <i className="uil uil-check-circle projects__modal-icon"></i>
-                  <p className="projects__modal-info"> developing the UI</p>
+                  {/* <i className="uil uil-check-circle projects__modal-icon"></i> */}
+                  <p className="projects__modal-info">
+                    Pretty similar to googleMeet
+                  </p>
                 </li>
                 <li className="projects__modal-project">
-                  <i className="uil uil-check-circle projects__modal-icon"></i>
-                  <p className="projects__modal-info"> helped on the backend</p>
+                  {/* <i className="uil uil-check-circle projects__modal-icon"></i> */}
+                  <p className="projects__modal-info">
+                    Technologies Used : React.js, Node.js , WebRTC, websocket
+                  </p>
                 </li>
               </ul>
             </div>

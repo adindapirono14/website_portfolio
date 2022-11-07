@@ -60,6 +60,7 @@
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
+  text-align: justify;
 }
 
 .projects__modal-content {
