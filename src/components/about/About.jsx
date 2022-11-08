@@ -10,10 +10,12 @@ function About() {
       <div className="about__container container grid">
         <div className="about__data">
           <p className="about__description">
-            Hi there! My name is Adinda, an aspiring software engineer who loves
-            designing and building systems and infrastructures. I enjoy building
-            softwares and have experience in Frontend, Backend, and Mobile
-            development.
+            Hi there! My name is Adinda, an aspiring software engineer who just
+            completed her studies. I majored in Digital System Security which
+            further led me to this place. I am highly interested on how
+            technologies shape human's life to a better one. I enjoyed the
+            contant challenges presented and have a better understanding in
+            Frontend.
           </p>
           <Info />
         </div>
